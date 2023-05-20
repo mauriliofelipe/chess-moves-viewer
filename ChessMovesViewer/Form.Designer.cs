@@ -61,6 +61,7 @@ namespace ChessMovesViewer
             this.PiecesComboBox.Name = "PiecesComboBox";
             this.PiecesComboBox.Size = new System.Drawing.Size(150, 27);
             this.PiecesComboBox.TabIndex = 0;
+            this.PiecesComboBox.SelectedIndexChanged += new System.EventHandler(this.PiecesComboBox_SelectedIndexChanged);
             // 
             // GuidelinesLabel
             // 
